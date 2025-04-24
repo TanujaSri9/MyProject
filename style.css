@@ -1,0 +1,313 @@
+.main{
+    background-color: antiquewhite;
+    /* rgb(240, 202, 139); */
+    height:6000px;
+    width:1500px;
+}
+.headder{
+    background-color: rgb(222, 147, 27);
+    height:150px;
+    width:1500px;
+    /* color:white; */
+    text-decoration: none;
+    
+    
+}
+.headder ul li{
+    float:right;
+    margin-top:50px;
+    margin-right:100px;
+    list-style:none;
+    color:white;
+    color: aliceblue;
+    font-size:25px;
+     font-style:italic;
+     text-decoration: none;
+    
+    
+    
+}
+
+.headder li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 28px;
+
+    
+}
+/* .headder:hover{
+    background-color: rgb(235, 157, 74);
+} */
+.banner{
+     background-color:  rgb(222, 147, 27);
+     height:150px;
+     width:300px;
+     border-right: 1px solid white;
+     font-style: italic;
+     text-align: center;
+     
+    }
+    /* .text1{
+        height:px;
+        width:1500px;
+        background-color:black;
+        color: azure;
+        text-align: center;
+        font-size: 50px;
+    } */
+.img{
+    background-image: url("https://res.cloudinary.com/dtc5mqbv0/image/upload/v1745474206/r1_ibklam.jpg");
+    height:1000px;
+    width:1500px;
+}
+.text{
+    /* background-color: rgb(255, 213, 0); */
+    height:100px;
+    width:700px;
+    /* margin-top: 70px; */
+    font-size: 150px;
+    color:azure ; 
+}
+.subtext{
+    height:100px;
+    width:900px;
+    color:rgb(179, 214, 214);
+    margin-top:800px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+
+}
+.ourmenu{
+    height:100px;
+    width:1500px;
+    /* background-color:rgb(225, 149, 27); */
+    font-size: 50px;
+   text-align: center;
+   color: rgb(222, 147, 27);
+}
+.cols{
+    height:1420px; 
+    width:1500px;
+    /* border:3px solid rgb(243, 156, 26) */
+    /* background-color: rgb(194, 185, 203); */
+}
+.cols1{
+    height:1300px; 
+    width:1500px;
+    /* border:3px solid rgb(243, 156, 26) */
+    /* background-color: rgb(194, 185, 203); */
+}
+.menutext{
+    height:100px;
+    width:1000px;
+    margin-left: 300px;
+    text-align: center;
+    /* background-color: aqua; */
+    font-style: italic;
+    font-size: 18px;
+}
+ .col-md-1{
+    height:1241px;
+    width:500px;
+    /* background-color: rgb(98, 203, 23); */
+    float: left;
+    font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  /* color:brown */
+  /* border-right:1px solid rgb(243, 156, 26) ; rgb(228, 154, 26); */
+
+}   
+.col-md-2{
+    height:1241px;
+    width:500px;
+    /* background-color: rgb(71, 23, 203); */
+    float: left;
+    font-size: 25px;
+  text-align: center;
+  font-style: italic; 
+  /* border-right:1px solid rgb(243, 156, 26) ; */
+}
+.col-md-3{
+    height:1241px;
+    width:500px;
+    /* background-color: rgb(203, 23, 143); */
+    float: right;
+    font-size: 25px;
+  text-align: center;
+  font-style: italic;
+
+} 
+ .itembox{
+    height:200px;
+    width:500px;
+    /* background-color: rgb(163, 37, 37); */
+   
+    /* text-align: center; */
+} 
+ .itemimg{
+    height:200px;
+    width:190px;
+    /* background-color: rgb(74, 156, 156); */
+    background-size: cover ;
+    border-radius: 40px;
+} 
+.itemtext{
+    height:200px;
+    width:300px;
+    /* background-color: rgb(235, 213, 116); */
+    float: right;
+    
+    
+    
+   
+} 
+
+.scroll-container {
+    display:inline-flex;
+    overflow-x: auto;
+    scroll-behavior:smooth;
+    padding: 100px;
+    gap: 100px;
+    /* border:1px solid black */
+    /* background-color: blue; */
+  }
+  
+  .scroll-item {
+    min-width: 300px;
+    flex-shrink: 0;
+    text-align: center;
+    /* margin:80px; */
+  }
+  
+  .scroll-item img {
+    width: 180px;
+    height: 180px;
+    border-radius:100px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #444;
+    font-size:20px;
+  }
+
+  .footer{
+    height: 700px;
+    width:1500px;
+  }
+
+  .aboutus{
+    color: rgb(222, 147, 27);
+    height:130px;
+    width:1500px;
+    /* background-color:rgb(225, 149, 27); */
+    font-size: 50px;
+   text-align: center;
+   /* margin-top: 50px; */
+}
+.autext{
+    /* height:200px;
+    width:
+    text-align: center; */
+    height:230px;
+    width:1000px;
+    margin-left: 300px;
+    text-align: center;
+    /* background-color: aqua; */
+    font-style: italic;
+    font-size: 22px;
+
+}
+
+.contact{
+    
+    height:100px;
+    width:1500px;
+    /* background-color:rgb(225, 149, 27); */
+    font-size: 50px;
+   text-align: center;
+   /* margin-top: 50; */
+    
+}
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .middle{
+     float:right;
+    background-image: url("r1.jpg");
+    background-size: cover;
+    height:900px;
+    width:1500px;
+
+} */
+    /* float:right;
+    background-image: url("r1.jpg");
+    background-size: cover;
+    height:900px;
+    width:1500px; */
+
+/* .img{
+    float:right;
+    background-image: url("r1.jpg");
+    background-size: cover;
+    height:900px;
+    width:1500px;
+} */
+/* /* .text{
+    background-color: rgb(255, 213, 0);
+    height:100px;
+    width:700px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color:azure ; */
+
+/* .subtext{
+    height:100px;
+    width:500px;
+    color:azure;
+    margin-top:150px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+/* .menu{
+    height:1000px;
+    width:1500px;
+    background-color: rgb(22, 141, 141);
+}
+.mhead{
+    width:1500px;
+    height:1500px;
+    background-color: blanchedalmond;
+} */
+/* rgb(224, 124, 17); 
+rgb(207, 158, 34);*/
